@@ -1,0 +1,14 @@
+.github
+.vscode
+lerna.json
+tsconfig.json
+.babelrc.json
+CODE_OF_CONDUCT.md
+.prettierrc
+.eslintrc.json
+.yarnignore
+*.tgz
+src
+tsconfig.build.json
+examples
+*.gif
