@@ -1,0 +1,13 @@
+{
+  "name": "@next-deploy/github",
+  "version": "4.2.0",
+  "license": "MIT",
+  "main": "dist/component.js",
+  "types": "dist/component.d.ts",
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "build:watch": "yarn compile -w",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json"
+  }
+}

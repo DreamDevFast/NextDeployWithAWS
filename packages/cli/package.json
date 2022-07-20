@@ -1,0 +1,17 @@
+{
+  "name": "@next-deploy/cli",
+  "version": "4.2.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "build:watch": "yarn compile -w",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@next-deploy/aws-component": "link:../aws-component",
+    "@next-deploy/github": "link:../github"
+  }
+}
